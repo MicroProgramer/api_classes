@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:api_classes/controllers/home_controller.dart';
-import 'package:api_classes/screens/screen_post_details.dart';
+import 'package:api_classes/views/screens/screen_post_details.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
