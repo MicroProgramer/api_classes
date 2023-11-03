@@ -1,4 +1,5 @@
 import 'package:api_classes/controllers/ecommerce_controller.dart';
+import 'package:api_classes/controllers/hotels_controller.dart';
 import 'package:api_classes/views/layouts/item_ecom_product.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -9,6 +10,7 @@ class ScreenEcommerce extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var controller = Get.put(EcommerceController());
+    Get.put(HotelsController());
 
     return Scaffold(
       appBar: AppBar(
